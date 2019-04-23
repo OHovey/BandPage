@@ -6,7 +6,7 @@ const cookieParser = require('cookie-parser')
 app.set('trust_proxy', 1) 
 
 //stripe setup 
-let stripe = require('stripe')('sk_test_q1bXj9i1sRP6EmZxUs3f2vhG')
+let stripe = require('stripe')('some_secret')
 
 // declare middleware 
 let bodyParser = require('body-parser')
